@@ -13,15 +13,16 @@ public class photonHand : MonoBehaviour {
         SceneManager.sceneLoaded += OnSceneFinishedLoading;
     }
 
-    public void createNewRoom() {
+    //Esto lo teniamos para dar la opcion al jugador de poner un nombre al room
+    /*public void createNewRoom() {
         PhotonNetwork.CreateRoom(photonB.createRoomInput.text, new RoomOptions() { MaxPlayers = 4 }, null);
-    }
+    }*/
 
     public void joinOrCreateRoom() {
         RoomOptions roomOptions = new RoomOptions();
         roomOptions.MaxPlayers = 4;
-        PhotonNetwork.JoinOrCreateRoom(photonB.joinRoomInput.text, roomOptions, TypedLobby.Default);
-
+        //PhotonNetwork.JoinOrCreateRoom(photonB.createRoomName.text, roomOptions, TypedLobby.Default);
+        PhotonNetwork.JoinOrCreateRoom(photonB.createRoomName, roomOptions, TypedLobby.Default);
     }
     
     public void moveScene() {

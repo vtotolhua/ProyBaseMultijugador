@@ -538,8 +538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 377984d25b2794649874d1136f86ebc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 1
-  smoothing: 0.8
+  sensitivity: 2
+  smoothing: 1
 --- !u!114 &114476239924856196
 MonoBehaviour:
   m_ObjectHideFlags: 1
