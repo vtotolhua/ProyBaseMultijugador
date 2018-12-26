@@ -113,52 +113,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &1106136532
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 2.187
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4391452667406970, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 1692071140567890, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: c6a87b73ee54d654ab2ed4a5fe967227, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &1901501013
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,7 +191,7 @@ GameObject:
   - component: {fileID: 1991989079}
   - component: {fileID: 1991989078}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Piso
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +224,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 9ad6d9a25c200ac40a40e43aa15a1008, type: 2}
+  - {fileID: 2100000, guid: 8b493c937d4be904390e20518d5b484e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
