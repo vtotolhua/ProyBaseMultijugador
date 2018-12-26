@@ -18,7 +18,6 @@ public class WeaponShoot : Photon.MonoBehaviour
     public void Dispara()
     {
         GameObject temp = Instantiate(Bala, SpawnPoint.transform.position, SpawnPoint.transform.rotation);
-        temp.transform.Rotate(Vector3.left * 180);
         Destroy(temp, 3.0f);
     }
 

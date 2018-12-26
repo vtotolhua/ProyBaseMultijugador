@@ -11,8 +11,6 @@ public class PlayerMov : Photon.MonoBehaviour {
     private Vector3 selfPos;
     private GameObject sceneCam;
     public GameObject plCam;
-    public Transform SpawnPoint;
-    public GameObject bala;
     
     private void Awake () {
         if (!devTesting && photonView.isMine) {
@@ -49,13 +47,6 @@ public class PlayerMov : Photon.MonoBehaviour {
         if (Input.GetKeyDown("escape"))
         {
             Cursor.lockState = CursorLockMode.None;
-        }
-
-        //Revisamos si hay una acción de disparo.
-        //if (Input.GetButtonDown("Fire1")) {
-        if (OVRInput.GetDown(OVRInput.Button.One)) {
-            GameObject temp = Instantiate(bala, SpawnPoint.transform.position, SpawnPoint.transform.rotation);
-            Destroy(temp, 3.0f);
         }
     }
 
